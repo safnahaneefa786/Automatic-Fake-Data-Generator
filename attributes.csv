@@ -1,0 +1,10 @@
+column_id,table_id,column_name,data_type,format,is_primary,foreign_key_id
+1,1,SHIPPER_ID,int,number,1,0
+2,1,SHIPPER_NAME,string,name,0,0
+3,1,SHIPPER_PHONE,int,phone,0,0
+4,1,SHIPPER_ADDRESS,string,address,0,0
+5,2,ORDER_ID,int,number,1,0
+6,2,ORDER_STATUS,string,"shipped,delivered,ordered",0,0
+7,2,ORDER_SHIPMENT_DATE,date,date,0,0
+8,2,ORDER_SHIPPER_ID,int,number,0,1
+9,2,ORDER_SHIPPER_NAME,string,name,0,2
